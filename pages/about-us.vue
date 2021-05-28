@@ -113,6 +113,7 @@ export default {
 @media only screen and (max-width: 767px) {
 	.why-choose-section-img {
 		width: 100%;
+		padding-bottom: 40px;
 		img {
 			width: 100%;
 			height: 100%;
