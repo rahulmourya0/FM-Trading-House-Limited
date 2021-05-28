@@ -135,11 +135,11 @@
 						<div class="call-us-image">
 							<p>
 								Our Company is based in Hong Kong which is one of the major
-								centres for trading of branded Electronics.<br /><br />
+								centres for trading of branded Electronics.<br />
 								​ We regularly Export/Import products for brands like Apple,
 								Nikon, Fujifilm, Leica, Sekonic, Samsung, Panasonic, Tokina,
 								Sony, Olympus, Leica, Canon, GoPro, Tamron, Sigma, Bose,
-								Sennheiser, FitBit, OnePlus, Huawei etc. ​<br /><br />
+								Sennheiser, FitBit, OnePlus, Huawei etc. ​<br />
 								With our more than 10 years experience in this field, we have
 								great network locally and overseas to move goods faster and
 								efficiently.
@@ -389,6 +389,7 @@ p {
 	h2 {
 		font-weight: 600;
 		font-size: 60px;
+		text-transform: uppercase;
 	}
 	h4 {
 		font-size: 30px;
@@ -420,7 +421,7 @@ p {
 		color: #fff;
 	}
 	button {
-		border-radius: 20px;
+		// border-radius: 20px;
 		padding: 3px 10px;
 		// background-color: #03487a;
 		background-color: #ff8a26;
@@ -428,7 +429,7 @@ p {
 	}
 	button:hover {
 		background-color: #ffffff;
-		border-radius: 20px;
+		// border-radius: 20px;
 		h3 {
 			color: #000000;
 		}
@@ -479,11 +480,12 @@ p {
 .brands-container h2 {
 	font-weight: 600;
 	color: #000000;
-	font-size: 60px;
+	font-size: 40px;
+	text-transform: uppercase;
 }
 @media (max-width: 767px) {
 	.brands-container h2 {
-		font-size: 40px;
+		font-size: 30px;
 	}
 }
 

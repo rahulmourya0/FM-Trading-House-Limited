@@ -140,6 +140,7 @@ export default {
 	h2 {
 		font-weight: 600;
 		font-size: 60px;
+		text-transform: uppercase;
 	}
 	h4 {
 		font-size: 30px;

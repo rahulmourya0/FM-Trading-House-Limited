@@ -18,7 +18,7 @@
 						<div class="footer-logo">
 							<img src="@/assets/fm-logo/Logo.svg" alt="footer-logo" />
 						</div>
-						<div class="">FM Trading House Limited</div>
+						<!-- <div class="">FM Trading House Limited</div> -->
 					</div>
 					<div class="col-md-6 col-sm-12">
 						<!-- <div class="footer-services"> -->

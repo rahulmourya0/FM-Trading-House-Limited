@@ -20,16 +20,16 @@
 					<b-collapse id="nav-collapse" is-nav>
 						<b-navbar-nav class="text-center ml-auto">
 							<nuxt-link class="nav-link" to="/">
-								<div class="font-18">Home</div></nuxt-link
+								<div class="font-14">Home</div></nuxt-link
 							>
 							<nuxt-link class="nav-link" to="/about-us">
-								<div class="font-18">About Us</div></nuxt-link
+								<div class="font-14">About Us</div></nuxt-link
 							>
 							<nuxt-link class="nav-link" to="/brands">
-								<div class="font-18">Brands</div></nuxt-link
+								<div class="font-14">Brands</div></nuxt-link
 							>
 							<nuxt-link class="nav-link" to="/contact-us">
-								<div class="font-18">Contact Us</div></nuxt-link
+								<div class="font-14">Contact Us</div></nuxt-link
 							>
 						</b-navbar-nav>
 					</b-collapse>
@@ -42,7 +42,7 @@
 @import "@/assets/scss/variable.scss";
 
 .header-section {
-	border-bottom: 1px solid #373738 !important;
+	// border-bottom: 1px solid #373738 !important;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
@@ -64,6 +64,8 @@
 	.navbar {
 		//padding:5px;
 		// background-color: transparent;
+		text-transform: uppercase;
+		font-weight: 600;
 		.navbar-nav {
 			margin-left: auto !important;
 			margin-right: auto !important;
@@ -88,9 +90,9 @@
 	width: 100%;
 }
 
-.font-18 {
+.font-14 {
 	font-family: "Roboto", sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 }
 .col-lg-4,
 .col-md-12,
