@@ -420,7 +420,7 @@ p {
 
 .quote-button {
 	h3 {
-		color: #e72c16;
+		color: #902a00;
 		font-size: 14px !important;
 		font-weight: 600;
 	}
