@@ -37,6 +37,13 @@
 				</div>
 			</div>
 		</div>
+		<div class="copyright-section">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<p>© Copyright 2017 All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 <style lang="scss">

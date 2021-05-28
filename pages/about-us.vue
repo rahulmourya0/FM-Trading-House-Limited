@@ -146,4 +146,10 @@ export default {
 		font-size: 30px;
 	}
 }
+
+@media only screen and (min-width: 768px) {
+	.why-choose-section-img {
+		padding-top: 70px;
+	}
+}
 </style>

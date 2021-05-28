@@ -418,13 +418,13 @@ p {
 
 .quote-button {
 	h3 {
-		color: #fff;
+		color: #e72c16;
 	}
 	button {
 		// border-radius: 20px;
 		padding: 3px 10px;
 		// background-color: #03487a;
-		background-color: #ff8a26;
+		background-color: #fff;
 		border-color: #ffb506;
 	}
 	button:hover {
