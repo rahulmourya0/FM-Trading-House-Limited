@@ -1,0 +1,79 @@
+@import "@/assets/scss/variable.scss";
+
+// media queries
+
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .deatils-section {
+    .banner-image {
+      .banner-title {
+        font-size: $font-48;
+      }
+    }
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 414px to 736px
+    */
+@media (min-width: 414px) and (max-width: 736px) {
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+    */
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-section {
+    .header-logo {
+      height: 50px;
+    }
+    .navbar {
+      .navbar-nav {
+        margin-left: auto !important;
+      }
+      padding: 0px;
+      .nav-link {
+        padding: 10px;
+      }
+      .link-section {
+        border-right: none;
+      }
+    }
+  }
+  .deatils-section {
+    .banner-image {
+      .banner-title {
+        top: 90%;
+        font-size: $font-32;
+        left: 40%;
+        transform: translate(-40%, -50%);
+      }
+    }
+    .beauty-info {
+      .first-ttile {
+        font-size: $font-28;
+      }
+    }
+  }
+  .feature-section {
+    .feature-main-title {
+      font-size: $font-28;
+    }
+  }
+}
+
+//landscape
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+}

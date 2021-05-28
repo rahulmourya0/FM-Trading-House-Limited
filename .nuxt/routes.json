@@ -1,0 +1,44 @@
+[
+  {
+    "name": "about-us",
+    "path": "/about-us",
+    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\about-us.vue",
+    "chunkName": "pages/about-us",
+    "_name": "_fef80bf2"
+  },
+  {
+    "name": "brands",
+    "path": "/brands",
+    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\brands.vue",
+    "chunkName": "pages/brands",
+    "_name": "_11075c35"
+  },
+  {
+    "name": "contact-us",
+    "path": "/contact-us",
+    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\contact-us.vue",
+    "chunkName": "pages/contact-us",
+    "_name": "_723e9dd4"
+  },
+  {
+    "name": "services",
+    "path": "/services",
+    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\services.vue",
+    "chunkName": "pages/services",
+    "_name": "_5d3304f2"
+  },
+  {
+    "name": "why-choose-us",
+    "path": "/why-choose-us",
+    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\why-choose-us.vue",
+    "chunkName": "pages/why-choose-us",
+    "_name": "_2741b676"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b73a4b0e"
+  }
+]

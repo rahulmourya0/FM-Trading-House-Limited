@@ -1,0 +1,14 @@
+{
+  "FooterSection": {
+    "description": "Auto imported from components/footer-section.vue"
+  },
+  "HeaderSection": {
+    "description": "Auto imported from components/header-section.vue"
+  },
+  "HomeAbout": {
+    "description": "Auto imported from components/home-about.vue"
+  },
+  "ServicesCard": {
+    "description": "Auto imported from components/services-card.vue"
+  }
+}
