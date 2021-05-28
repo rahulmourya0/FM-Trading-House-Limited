@@ -29,10 +29,8 @@
 					></iframe>
 				</div>
 
-				<div class="row contact-strip">
+				<!-- <div class="row contact-strip">
 					<div class="col-md-6 col-sm-12 p-3">
-						<!-- <div class="card">
-							<div class="card-body"> -->
 						<div>
 							<div class="font-18 font-weight-bold pb-3">
 								<img
@@ -47,13 +45,9 @@
 								Bonham Strand, Sheung Wan <br />Hong Kong
 							</div>
 						</div>
-						<!-- </div>
-						</div> -->
 					</div>
 
 					<div class="col-md-6 col-sm-12 p-3">
-						<!-- <div class="card">
-							<div class="card-body"> -->
 						<div class="mt-3">
 							<div class="font-18 font-weight-bold pb-3">
 								<img src="~assets/images/icons/mail.svg" alt="" width="20px" />
@@ -66,8 +60,40 @@
 								>
 							</div>
 						</div>
-						<!-- </div>
-						</div> -->
+					</div>
+				</div> -->
+
+				<div class="row contact-strip">
+					<div class="col-md-12 col-sm-12 p-3 strip-border">
+						<div>
+							<div class="font-18 font-weight-bold pb-3">
+								<img
+									src="~assets/images/icons/address.svg"
+									alt=""
+									width="20px"
+								/>
+								<span class="secondary">Address:</span>
+							</div>
+							<div class="font-16">
+								FM Trading House Limited, No.3, 17/F, Strand 50 ,50 Bonham
+								Strand, Sheung Wan, Hong Kong
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 p-3 strip-border">
+						<div class="mt-3">
+							<div class="font-18 font-weight-bold pb-3">
+								<img src="~assets/images/icons/mail.svg" alt="" width="20px" />
+
+								<span class="secondary">Email Id:</span>
+							</div>
+							<div class="font-16">
+								<a href="mailto:sales@fmtradinghouse.com">
+									sales@fmtradinghouse.com</a
+								>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -86,7 +112,7 @@
 }
 
 .contact-strip {
-	background-color: #db5616;
+	// background-color: #db5616;
 	color: #000000;
 	a {
 		color: #000000;
@@ -100,5 +126,9 @@
 		width: 100%;
 		opacity: 0.8;
 	}
+}
+
+.strip-border {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 </style>

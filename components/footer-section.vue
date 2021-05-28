@@ -26,9 +26,11 @@
 						<!-- <div class="row"> -->
 						<div class="footer-address">
 							<div>
-								FM Trading House Limited No.3, 17/F, Strand 50<br />
-								50 Bonham Strand, Sheung Wan<br />
-								Hong Kong
+								<p>
+									FM Trading House Limited No.3, 17/F, Strand 50<br />
+									50 Bonham Strand, Sheung Wan<br />
+									Hong Kong
+								</p>
 							</div>
 						</div>
 						<!-- </div> -->
@@ -39,8 +41,8 @@
 		</div>
 		<div class="copyright-section">
 			<div class="row">
-				<div class="col-md-12 col-sm-12 text-center">
-					<p>© Copyright 2017 All Rights Reserved</p>
+				<div class="col-md-12 col-sm-12 text-center pt-3">
+					<p>© Copyright 2021 All Rights Reserved</p>
 				</div>
 			</div>
 		</div>
@@ -49,9 +51,9 @@
 <style lang="scss">
 @import "~assets/scss/variable";
 .footer-section {
-	padding: 20px 0;
+	padding: 20px 0 0 0;
 	background: $black;
-	font-weight: bold;
+	font-weight: 500;
 	border-top: 1px solid $black;
 	color: $white;
 	font-size: 0.75rem;
@@ -68,10 +70,24 @@
 	.footer-logo {
 		text-align: center;
 	}
-	.footer-address {
+	.footer-address p {
 		text-align: center;
 	}
 }
+
+.footer-address p {
+	text-align: center;
+	font-size: 14px !important;
+}
+.footer-logo {
+	text-align: center;
+}
+
+// .copyright-section {
+// 	background-color: #fff;
+// 	color: #000;
+// 	margin-top: 20px;
+// }
 
 //  .footer-address{
 //     text-align: left;

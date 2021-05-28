@@ -148,7 +148,7 @@
 						<div class="quote-button">
 							<a href="/about-us"
 								><button>
-									<h3>About More</h3>
+									<h3>READ MORE</h3>
 								</button>
 							</a>
 						</div>
@@ -158,7 +158,7 @@
 		</section>
 
 		<section class="brands-container">
-			<div class="container">
+			<div class="container inner-container-brands">
 				<div class="brands-title text-justify pt-4">
 					<!-- <h6>OUR COMPANY</h6> -->
 					<h2>
@@ -184,7 +184,7 @@
 				<div class="quote-button brands-button pb-5">
 					<a href="/brands"
 						><button>
-							<h3>More Brands</h3>
+							<h3>MORE BRANDS</h3>
 						</button>
 					</a>
 				</div>
@@ -378,7 +378,7 @@ p {
 
 .call-us-section {
 	padding-top: 5px !important;
-	margin-bottom: 60px !important;
+	margin-bottom: 5rem !important;
 	// color: #000000;
 }
 
@@ -390,12 +390,14 @@ p {
 		font-weight: 600;
 		font-size: 60px;
 		text-transform: uppercase;
+		line-height: 0.8;
 	}
 	h4 {
 		font-size: 30px;
+		line-height: 0.8 !important;
 	}
 	p {
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 1.9rem;
 	}
 }
@@ -419,10 +421,12 @@ p {
 .quote-button {
 	h3 {
 		color: #e72c16;
+		font-size: 14px !important;
+		font-weight: 600;
 	}
 	button {
 		// border-radius: 20px;
-		padding: 3px 10px;
+		padding: 16px 35px 8px 35px;
 		// background-color: #03487a;
 		background-color: #fff;
 		border-color: #ffb506;
@@ -526,7 +530,12 @@ p {
 
 @media only screen and (min-width: 768px) {
 	.why-choose-section-img {
-		padding-top: 70px;
+		padding: 50px 25px 15px 15px;
 	}
+}
+
+.inner-container-brands {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
 }
 </style>

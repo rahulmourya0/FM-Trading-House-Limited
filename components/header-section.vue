@@ -20,16 +20,16 @@
 					<b-collapse id="nav-collapse" is-nav>
 						<b-navbar-nav class="text-center ml-auto">
 							<nuxt-link class="nav-link" to="/">
-								<div class="font-14">Home</div></nuxt-link
+								<div class="font-12">Home</div></nuxt-link
 							>
 							<nuxt-link class="nav-link" to="/about-us">
-								<div class="font-14">About Us</div></nuxt-link
+								<div class="font-12">About Us</div></nuxt-link
 							>
 							<nuxt-link class="nav-link" to="/brands">
-								<div class="font-14">Brands</div></nuxt-link
+								<div class="font-12">Brands</div></nuxt-link
 							>
 							<nuxt-link class="nav-link" to="/contact-us">
-								<div class="font-14">Contact Us</div></nuxt-link
+								<div class="font-12">Contact Us</div></nuxt-link
 							>
 						</b-navbar-nav>
 					</b-collapse>
@@ -71,15 +71,17 @@
 			margin-right: auto !important;
 		}
 		.nuxt-link-exact-active.nuxt-link-active {
-			color: #ff8a26;
+			color: #902a00;
+			font-weight: 600;
 		}
 		.nav-link {
 			color: $black;
 			padding: 0px 20px;
-			font-weight: 500;
+			font-weight: 600;
 		}
 		.nav-link:hover {
-			color: #ff8a26;
+			color: #902a00;
+			font-weight: 600;
 		}
 		.link-section {
 			border-right: 1px solid $black;
@@ -90,9 +92,9 @@
 	width: 100%;
 }
 
-.font-14 {
+.font-12 {
 	font-family: "Roboto", sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 }
 .col-lg-4,
 .col-md-12,
