@@ -379,7 +379,7 @@ p {
 .call-us-section {
 	padding-top: 5px !important;
 	margin-bottom: 60px !important;
-	color: #000000;
+	// color: #000000;
 }
 
 .call-us-section {
@@ -521,6 +521,12 @@ p {
 			height: 100%;
 			overflow: hidden;
 		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.why-choose-section-img {
+		padding-top: 70px;
 	}
 }
 </style>
