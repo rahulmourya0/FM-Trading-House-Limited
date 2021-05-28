@@ -123,7 +123,7 @@
 					</div>
 
 					<div class="col-lg-5 mt-4">
-						<div class="section-titel-contact text-justify">
+						<div class="section-titel-contact text-justify pb-3">
 							<!-- <h6>OUR COMPANY</h6> -->
 							<h4>
 								Welcome!

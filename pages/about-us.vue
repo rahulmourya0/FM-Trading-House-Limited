@@ -33,7 +33,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12 m-auto">
-								<div class="section-titel-contact text-justify">
+								<div class="section-titel-contact text-justify pb-3">
 									<!-- <h6>OUR COMPANY</h6> -->
 									<h4>
 										Welcome!
