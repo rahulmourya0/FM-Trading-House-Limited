@@ -111,21 +111,15 @@
 		<section class="call-us-section">
 			<div class="container">
 				<div class="row">
-				<div class="col-lg-7 mt-4 for-desk">
-                <div class="why-choose-section-img">
-                  <img
-                    src="~assets/Events/about-us.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12 for-mob">
-                <div class="why-choose-section-img">
-                  <img
-                    src="~assets/Events/about-us.jpg"
-                    alt=""
-                  />
-                </div>
+					<div class="col-lg-7 mt-4 for-desk">
+						<div class="why-choose-section-img">
+							<img src="~assets/Banner/About.png" alt="" />
+						</div>
+					</div>
+					<div class="col-sm-12 for-mob">
+						<div class="why-choose-section-img">
+							<img src="~assets/Banner/About.png" alt="" />
+						</div>
 					</div>
 
 					<div class="col-lg-5 mt-4">
@@ -152,12 +146,12 @@
 							</p>
 						</div>
 						<div class="quote-button">
-					<a href="/about-us"
-						><button>
-							<h3>About More</h3>
-						</button>
-					</a>
-				</div>
+							<a href="/about-us"
+								><button>
+									<h3>About More</h3>
+								</button>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -166,28 +160,28 @@
 		<section class="brands-container">
 			<div class="container">
 				<div class="brands-title text-justify pt-4">
-							<!-- <h6>OUR COMPANY</h6> -->
-							<h2>
-								Brands We do
-							</h2>
-						</div>
+					<!-- <h6>OUR COMPANY</h6> -->
+					<h2>
+						Brands We do
+					</h2>
+				</div>
 
-		<div class="image-section">
-				<b-row class="pb-3">
-					<b-col
-						class="pt-4 pb-4"
-						md="3"
-						cols="6"
-						v-for="brand in brands"
-						:key="brand.id"
-					>
-						<div class="image-content">
-							<img :src="brand.img" class="img-fluid image-main" />
-						</div>
-					</b-col>
-				</b-row>
-			</div>
-					<div class="quote-button brands-button pb-5">
+				<div class="image-section">
+					<b-row class="pb-3">
+						<b-col
+							class="pt-4 pb-4"
+							md="3"
+							cols="6"
+							v-for="brand in brands"
+							:key="brand.id"
+						>
+							<div class="image-content">
+								<img :src="brand.img" class="img-fluid image-main" />
+							</div>
+						</b-col>
+					</b-row>
+				</div>
+				<div class="quote-button brands-button pb-5">
 					<a href="/brands"
 						><button>
 							<h3>More Brands</h3>
@@ -195,8 +189,7 @@
 					</a>
 				</div>
 			</div>
-</section>
-
+		</section>
 	</div>
 </template>
 <script>
@@ -247,7 +240,7 @@ export default {
 					id: 9,
 					img: img9,
 				},
-				]
+			],
 		};
 	},
 	methods: {
@@ -397,7 +390,7 @@ p {
 		font-weight: 600;
 		font-size: 60px;
 	}
-	h4{
+	h4 {
 		font-size: 30px;
 	}
 	p {
@@ -472,29 +465,29 @@ p {
 	padding-bottom: 50px;
 }
 
-.brands-container .brands-title{
+.brands-container .brands-title {
 	display: flex;
 	justify-content: center;
 }
 
-.brands-container .many-more{
+.brands-container .many-more {
 	display: flex;
 	justify-content: center;
 	font-weight: 600;
 }
 
-.brands-container h2{
+.brands-container h2 {
 	font-weight: 600;
 	color: #000000;
 	font-size: 60px;
 }
-@media (max-width:767px){
-	.brands-container h2{
-	font-size: 40px;
-}
+@media (max-width: 767px) {
+	.brands-container h2 {
+		font-size: 40px;
+	}
 }
 
-.brands-button{
+.brands-button {
 	justify-content: center;
 }
 .image-section {
@@ -506,26 +499,26 @@ p {
 // 	box-shadow: 2px 2px 4px rgb(192, 192, 192);
 // }
 
-.brands-container{
+.brands-container {
 	background-color: #ff8a26;
 }
 
 .why-choose-section-img {
-  img {
-    vertical-align: middle;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
+	img {
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
 }
 @media only screen and (max-width: 767px) {
-  .why-choose-section-img {
-    width: 100%;
-    img {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-  }
+	.why-choose-section-img {
+		width: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+	}
 }
 </style>

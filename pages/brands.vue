@@ -4,21 +4,13 @@
 			<div class="image-section image-section-banner mb-5">
 				<div class="for-desk">
 					<div class="image-section-desk">
-						<img
-							src="~assets/Events/banner-all.jpg"
-							alt=""
-							class="img-fluid"
-						/>
+						<img src="~assets/Events/banner-all.jpg" alt="" class="img-fluid" />
 						<span class="banner-text">Brands</span>
 					</div>
 				</div>
 				<div class="for-mob">
 					<div class="image-section-mob">
-						<img
-							src="~assets/Events/banner-all.jpg"
-							alt=""
-							class="img-fluid"
-						/>
+						<img src="~assets/Events/banner-all.jpg" alt="" class="img-fluid" />
 						<span class="banner-text">Brands</span>
 					</div>
 				</div>
@@ -247,17 +239,20 @@ export default {
 		padding: 38px 22px 35px;
 	}
 	.image-main {
-	box-shadow: 2px 2px 4px rgb(192, 192, 192);
-} 
+		box-shadow: 2px 2px 4px rgb(192, 192, 192);
+	}
 }
+
+/* .image-main {
+	min-height: 70px;
+} */
 
 .image-section-desk {
-  background-color: #1f232b;
+	background-color: #1f232b;
 }
- .image-section-desk img{
-  max-height: 480px;
-  width:100%;
-  opacity: 0.8;
+.image-section-desk img {
+	max-height: 480px;
+	width: 100%;
+	opacity: 0.8;
 }
-
 </style>
