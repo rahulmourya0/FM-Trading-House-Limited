@@ -18,7 +18,7 @@
 			<div class="contact-content text-center mb-5 text-dark">
 				<!-- <div class="sub-heading pb-4 secondary">Please Get In Touch</div> -->
 
-					<div class="map">
+				<div class="map">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3104.415615192981!2d114.14952721010535!3d22.285824572524856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sFM%20Trading%20House%20Limited%20No.3%2C%2017%2FF%2C%20Strand%2050%2050%20Bonham%20Strand%2C%20Sheung%20Wan%20Hong%20Kong!5e0!3m2!1sen!2sin!4v1622095691741!5m2!1sen!2sin"
 						width="100%"
@@ -33,48 +33,43 @@
 					<div class="col-md-6 col-sm-12 p-3">
 						<!-- <div class="card">
 							<div class="card-body"> -->
-								<div>
-									<div class="font-18 font-weight-bold pb-3">
-										<img
-											src="~assets/images/icons/address.svg"
-											alt=""
-											width="20px"
-										/>
-										<span class="secondary">Address:</span>
-									</div>
-									<div class="font-16">
-										FM Trading House Limited <br />No.3, 17/F, Strand 50
-										<br />50 Bonham Strand, Sheung Wan <br />Hong Kong
-									</div>
-								</div>
-							<!-- </div>
+						<div>
+							<div class="font-18 font-weight-bold pb-3">
+								<img
+									src="~assets/images/icons/address.svg"
+									alt=""
+									width="20px"
+								/>
+								<span class="secondary">Address:</span>
+							</div>
+							<div class="font-16">
+								FM Trading House Limited <br />No.3, 17/F, Strand 50 <br />50
+								Bonham Strand, Sheung Wan <br />Hong Kong
+							</div>
+						</div>
+						<!-- </div>
 						</div> -->
 					</div>
-					
+
 					<div class="col-md-6 col-sm-12 p-3">
 						<!-- <div class="card">
 							<div class="card-body"> -->
-								<div class="mt-3">
-									<div class="font-18 font-weight-bold pb-3">
-										<img
-											src="~assets/images/icons/mail.svg"
-											alt=""
-											width="20px"
-										/>
+						<div class="mt-3">
+							<div class="font-18 font-weight-bold pb-3">
+								<img src="~assets/images/icons/mail.svg" alt="" width="20px" />
 
-										<span class="secondary">Email Id:</span>
-									</div>
-									<div class="font-16">
-										<a href="mailto:sales@fmtradinghouse.com">
-											sales@fmtradinghouse.com</a
-										>
-									</div>
-								</div>
-							<!-- </div>
+								<span class="secondary">Email Id:</span>
+							</div>
+							<div class="font-16">
+								<a href="mailto:sales@fmtradinghouse.com">
+									sales@fmtradinghouse.com</a
+								>
+							</div>
+						</div>
+						<!-- </div>
 						</div> -->
 					</div>
 				</div>
-
 			</div>
 		</b-container>
 	</div>
@@ -90,17 +85,20 @@
 	}
 }
 
-.contact-strip{
-	background-color: #ff8a26;
+.contact-strip {
+	background-color: #db5616;
 	color: #000000;
+	a {
+		color: #000000;
+	}
 }
 
 .image-section-desk {
-  background-color: #1f232b;
-  img{
-  max-height: 480px;
-  width:100%;
-  opacity: 0.8;
-}
+	background-color: #1f232b;
+	img {
+		max-height: 480px;
+		width: 100%;
+		opacity: 0.8;
+	}
 }
 </style>

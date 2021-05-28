@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _fef80bf2 = () => interopDefault(import('..\\pages\\about-us.vue' /* webpackChunkName: "pages/about-us" */))
-const _11075c35 = () => interopDefault(import('..\\pages\\brands.vue' /* webpackChunkName: "pages/brands" */))
-const _723e9dd4 = () => interopDefault(import('..\\pages\\contact-us.vue' /* webpackChunkName: "pages/contact-us" */))
-const _5d3304f2 = () => interopDefault(import('..\\pages\\services.vue' /* webpackChunkName: "pages/services" */))
-const _2741b676 = () => interopDefault(import('..\\pages\\why-choose-us.vue' /* webpackChunkName: "pages/why-choose-us" */))
-const _b73a4b0e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _98c2f46e = () => interopDefault(import('../pages/about-us.vue' /* webpackChunkName: "pages/about-us" */))
+const _b5141f12 = () => interopDefault(import('../pages/brands.vue' /* webpackChunkName: "pages/brands" */))
+const _48e54116 = () => interopDefault(import('../pages/contact-us.vue' /* webpackChunkName: "pages/contact-us" */))
+const _04810949 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
+const _511233f4 = () => interopDefault(import('../pages/why-choose-us.vue' /* webpackChunkName: "pages/why-choose-us" */))
+const _358fb5f7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -24,27 +24,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/about-us",
-    component: _fef80bf2,
+    component: _98c2f46e,
     name: "about-us"
   }, {
     path: "/brands",
-    component: _11075c35,
+    component: _b5141f12,
     name: "brands"
   }, {
     path: "/contact-us",
-    component: _723e9dd4,
+    component: _48e54116,
     name: "contact-us"
   }, {
     path: "/services",
-    component: _5d3304f2,
+    component: _04810949,
     name: "services"
   }, {
     path: "/why-choose-us",
-    component: _2741b676,
+    component: _511233f4,
     name: "why-choose-us"
   }, {
     path: "/",
-    component: _b73a4b0e,
+    component: _358fb5f7,
     name: "index"
   }],
 

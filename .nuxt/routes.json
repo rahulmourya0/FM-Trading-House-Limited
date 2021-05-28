@@ -2,43 +2,43 @@
   {
     "name": "about-us",
     "path": "/about-us",
-    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\about-us.vue",
+    "component": "/home/wohlig/Documents/fm-trading-house/FM-Trading-House-Limited/pages/about-us.vue",
     "chunkName": "pages/about-us",
-    "_name": "_fef80bf2"
+    "_name": "_98c2f46e"
   },
   {
     "name": "brands",
     "path": "/brands",
-    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\brands.vue",
+    "component": "/home/wohlig/Documents/fm-trading-house/FM-Trading-House-Limited/pages/brands.vue",
     "chunkName": "pages/brands",
-    "_name": "_11075c35"
+    "_name": "_b5141f12"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
-    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\contact-us.vue",
+    "component": "/home/wohlig/Documents/fm-trading-house/FM-Trading-House-Limited/pages/contact-us.vue",
     "chunkName": "pages/contact-us",
-    "_name": "_723e9dd4"
+    "_name": "_48e54116"
   },
   {
     "name": "services",
     "path": "/services",
-    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\services.vue",
+    "component": "/home/wohlig/Documents/fm-trading-house/FM-Trading-House-Limited/pages/services.vue",
     "chunkName": "pages/services",
-    "_name": "_5d3304f2"
+    "_name": "_04810949"
   },
   {
     "name": "why-choose-us",
     "path": "/why-choose-us",
-    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\why-choose-us.vue",
+    "component": "/home/wohlig/Documents/fm-trading-house/FM-Trading-House-Limited/pages/why-choose-us.vue",
     "chunkName": "pages/why-choose-us",
-    "_name": "_2741b676"
+    "_name": "_511233f4"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\office\\\\fm-trading-house\\\\fm-trading-house-ltd\\\\pages\\\\index.vue",
+    "component": "/home/wohlig/Documents/fm-trading-house/FM-Trading-House-Limited/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_b73a4b0e"
+    "_name": "_358fb5f7"
   }
 ]
