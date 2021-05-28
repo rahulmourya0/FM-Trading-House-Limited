@@ -27,7 +27,7 @@
 			>
 				<!-- Text slides with image -->
 				<b-carousel-slide
-					img-src="../assets/Banner/Phone/Frame 8.png"
+					img-src="../assets/Banner/fm-mobile.png"
 				></b-carousel-slide>
 
 				<!-- Slides with custom text -->
@@ -57,7 +57,7 @@
 			>
 				<!-- Text slides with image -->
 				<b-carousel-slide
-					img-src="../assets/Banner/Web/Frame 5.png"
+					img-src="../assets/Banner/fm-web.png"
 				></b-carousel-slide>
 
 				<!-- Slides with custom text -->
@@ -432,7 +432,7 @@ p {
 		border-color: #ffb506;
 	}
 	button:hover {
-		background-color: #ffffff;
+		background-color: #ff8a26;
 		// border-radius: 20px;
 		h3 {
 			color: #000000;
