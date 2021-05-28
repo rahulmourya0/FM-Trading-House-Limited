@@ -141,9 +141,11 @@ export default {
 		font-weight: 600;
 		font-size: 60px;
 		text-transform: uppercase;
+		line-height: 0.8;
 	}
 	h4 {
 		font-size: 30px;
+		line-height: 0.8;
 	}
 }
 
